@@ -1,0 +1,113 @@
+* {
+    font-family: cursive;
+    font-style: italic;
+}
+header {
+    text-align: center;
+    text-decoration: overline;
+}
+h1 {
+    
+    display: inline-block;
+    background-color: darkorchid; 
+    color: beige;
+    border: 5px solid blueviolet ; 
+    border-radius: 25px;
+    padding: 10px;
+    
+    
+}
+
+#ok {
+    background-color: blue;
+}
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV3Ai_hjjqytU2621mSefRtRQqw9O8aqYtlQ&s) , url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZPgntZaPrjpX8E2YCVF3EG0xCZHm8GktG5Q&s);
+   background-attachment: fixed;
+   background-size: cover;
+}
+.hell {
+    color: darkslategray;
+}
+div > p {
+  color: rgb(240, 172, 12);
+}
+#reset {
+    background-color: antiquewhite;
+    border-radius: 30px;
+    cursor: progress;
+
+}
+#reset:hover {
+    background-color: blue;
+}
+#submit {
+    background-color: chartreuse;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#submit:hover{
+background-color:darkgreen ;
+}
+#n {
+    border-radius: 10px;
+}
+#c {
+    border-radius: 10px;
+}
+#r {
+    border-radius: 10px;
+}
+#g {
+    border-radius: 10px;
+}
+h3 {
+  color: rgb(170, 13, 218);
+  text-decoration: underline;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+a:visited {
+    color: purple;
+}
+a:active{
+    color:green
+}
+ul {
+    list-style-type: square;
+    padding-left: 40px;
+}
+li {
+    color: darkblue;
+    font-weight: bold;
+}
+ol {
+    list-style-type: decimal;
+    color: rgb(43, 226, 83);
+}
+input[type="text"],input[type="number"],textarea{
+width:250px;
+padding: 8px;
+margin: 5px 0;
+border: 2px solid grey;
+border-radius: 200px;
+font-size: 16px;
+}
+input::placeholder {
+    color: gray;
+    font-style: oblique;
+}
+span {
+  display: block;   /* ab span block ban gaya */
+}
+
+div {
+  display: inline;  /* ab div inline ban gaya */
+}
+
