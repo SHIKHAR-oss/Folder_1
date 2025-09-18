@@ -1,48 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML Table Example</title>
-  <style>
-    table {
-      width: 50%;
-      border-collapse: collapse;
-      margin: 20px auto;
-    }
-    th, td {
-      border: 2px solid black;
-      padding: 10px;
-      text-align: center;
-    }
-    th {
-      background-color: lightgray;
-    }
-  </style>
+    <title>Online Book Store - Home</title>
 </head>
 <body>
-  <h2 style="text-align: center;">Student Data</h2>
-  <table>
-    <tr>
-      <th>Roll No</th>
-      <th>Name</th>
-      <th>Marks</th>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Shikhar</td>
-      <td>95</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Arpit</td>
-      <td>88</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Rahul</td>
-      <td>76</td>
-    </tr>
-  </table>
+
+    <header>
+        <nav>
+            <table width="100%" border="0" cellpadding="10" cellspacing="0">
+                <tr>
+                    <td><img src="store-logo.png" alt="Online Book Store Logo"></td>
+                    <td><h1>Online Book Store</h1></td>
+                </tr>
+            </table>
+            <table width="100%" border="0" cellpadding="10" cellspacing="0">
+                <tr>
+                    <td><a href="index.html">Home</a></td>
+                    <td><a href="login.html">Login</a></td>
+                    <td><a href="register.html">Registration</a></td>
+                    <td><a href="cse.html">Catalogue</a></td>
+                    <td><a href="cart.html">Cart</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+
+    <main>
+        <table width="100%" border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <td width="20%">
+                    <a href="cse.html">CSE</a><br><br>
+                    <a href="ece.html">ECE</a><br><br>
+                    <a href="eee.html">EEE</a><br><br>
+                    <a href="civil.html">CIVIL</a><br><br>
+                </td>
+                <td>
+                    <article>
+                        <h2>About us</h2>
+                        <p>Welcome to our Online Engineering Bookstore, your one-stop destination for academic excellence and professional growth. We specialize in providing a wide collection of carefully curated engineering books across major branches such as Computer Science and Engineering (CSE), Electronics and Communication Engineering (ECE), Electrical and Electronics Engineering (EEE), and Civil Engineering. [cite: 80, 81]</p>
+                        <p>Our mission is to make quality technical knowledge accessible to every student, educator, and professional at the click of a button. From fundamental textbooks that build a strong foundation to advanced reference materials that support research and innovation, we ensure that learners of all levels find the resources they need. The store offers books on programming, digital electronics, power systems, structural design, communication systems, data science, and many more specialized topics. [cite: 82, 83, 84]</p>
+                        <p>With user-friendly navigation, quick search features, and secure checkout, purchasing your essential study materials has never been easier. Each book is selected to match the curriculum requirements of leading universities and industry demands, making it a reliable choice for both academic and competitive exam preparation. [cite: 87, 88]</p>
+                        <p>Whether you are a student striving for success, a teacher shaping future engineers, or a professional upgrading your skills, our online bookstore is here to empower your engineering journey. [cite: 89]</p>
+                    </article>
+                </td>
+            </tr>
+        </table>
+    </main>
+
 </body>
 </html>

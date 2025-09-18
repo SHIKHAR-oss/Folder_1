@@ -166,3 +166,9 @@ header{
     height: 46px;
 
 }
+.features-section{
+    padding: 80px var(--padding-inline-section);
+}
+.features-header{
+    text-align: center;
+}
