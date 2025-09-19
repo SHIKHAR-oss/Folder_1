@@ -50,6 +50,7 @@ a{
     padding-inline: var(--padding-inline-section);
 }
 
+
 .flex{
     display: flex;
     align-items: center;
@@ -71,6 +72,7 @@ a{
     padding: 12px 24px;
     box-shadow: 0 0 2px var(--secondary-text-color);
     transition: 0.2s ease-out;
+    margin-top: 20px;
 }
 .primary-button:hover{
     background-color: var(--accent-color-dark);
@@ -90,8 +92,7 @@ a{
 }
 
 .top-baner{
-    background-image:url(https://static.vecteezy.com/system/resources/thumbnails/019/523/927/small/abstract-digital-fingerprint-login-concept-identity-verification-illustration-with-digital-hand-wireframe-security-protection-on-a-futuristic-modern-background-vector.jpg) ;
-    background-color: rgba(168, 79, 197, 0.792);
+    background-color: #2294ed;
     background-size: 300px;
     background-repeat: repeat;
 }
@@ -104,6 +105,7 @@ a{
 .main-nav{
     justify-content: space-between;
     margin-top: 20px;
+    
 
 }
 ul{
@@ -118,7 +120,14 @@ ul{
 }
 .nave-links{
     flex-basis: 730px;
+    border: 2px solid;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 
+}
+.setting{
+    margin-bottom: 20px;
 }
 
 .nave-links ul{
